@@ -32,11 +32,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\lib\HtmlAgilityPack.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,19 +52,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Aplicacao.cs" />
     <Compile Include="Class\BotFactory.cs" />
     <Compile Include="Class\Bots\Kabum.cs" />
     <Compile Include="Class\Bots\PontoFrio.cs" />
     <Compile Include="Class\Helpers\WebHelper.cs" />
     <Compile Include="Class\RequisicaoLeituraVO.cs" />
+=======
+    <Compile Include="Class\Bots\Base\Const\Concorrente.cs" />
+    <Compile Include="Class\Bots\Base\IBotFactory.cs" />
+    <Compile Include="Class\Bots\Base\Impl\BotFactory.cs" />
+    <Compile Include="Class\Bots\Impl\PontoFrioBot.cs" />
+    <Compile Include="Class\Service\IDefaultService.cs" />
+    <Compile Include="Class\Service\Impl\DefaultService.cs" />
+    <Compile Include="Class\Service\IService.cs" />
+    <Compile Include="Class\Service\Impl\ProdutoLeituraAPIService.cs" />
+    <Compile Include="Class\ViewObject\ProdutoLeituraVO.cs" />
+    <Compile Include="Class\ViewObject\RequisicaoLeituraVO.cs" />
+>>>>>>> 78e54b9... Estrutura básica
     <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Class\IBotConcorrente.cs" />
+=======
+    <Compile Include="Class\Bots\IBotConcorrente.cs" />
+>>>>>>> 78e54b9... Estrutura básica
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Main.resx">
@@ -74,6 +96,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
