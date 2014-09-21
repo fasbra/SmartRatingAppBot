@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartRatingApp.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace SmartRatingApp
         public Main()
         {
             InitializeComponent();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            Aplicacao.ExecutaAtualizacaoPrecos();
         }
     }
 }

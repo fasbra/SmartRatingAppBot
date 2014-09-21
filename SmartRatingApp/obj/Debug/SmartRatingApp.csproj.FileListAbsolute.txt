@@ -1,1 +1,13 @@
 c:\users\juliano\documents\visual studio 2013\Projects\SmartRatingApp\SmartRatingApp\bin\Debug\SmartRatingApp.exe.config
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\SmartRatingApp.exe.config
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.csprojResolveAssemblyReference.cache
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.Main.resources
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.Properties.Resources.resources
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.csproj.GenerateResource.Cache
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\SmartRatingApp.exe
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\SmartRatingApp.pdb
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\HtmlAgilityPack.dll
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\HtmlAgilityPack.pdb
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\bin\Debug\HtmlAgilityPack.xml
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.exe
+C:\Projetos\SmartRating\SmartRatingAppBot\SmartRatingApp\obj\Debug\SmartRatingApp.pdb

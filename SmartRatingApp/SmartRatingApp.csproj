@@ -47,7 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aplicacao.cs" />
+    <Compile Include="Class\BotFactory.cs" />
+    <Compile Include="Class\Bots\Kabum.cs" />
     <Compile Include="Class\Bots\PontoFrio.cs" />
+    <Compile Include="Class\Helpers\WebHelper.cs" />
     <Compile Include="Class\RequisicaoLeituraVO.cs" />
     <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
@@ -55,7 +59,7 @@
     <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="IBotConcorrente.cs" />
+    <Compile Include="Class\IBotConcorrente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Main.resx">
@@ -83,6 +87,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
