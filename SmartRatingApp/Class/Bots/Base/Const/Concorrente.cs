@@ -2,6 +2,7 @@
 {
     public enum Concorrente
     {
-        PontoFrio = 1
+        PontoFrio = 1,
+        Submarino = 4,
     }
 }

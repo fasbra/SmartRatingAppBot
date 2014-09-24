@@ -13,6 +13,9 @@ namespace SmartRatingApp.Class.Bots.Base.Impl
                 case Concorrente.PontoFrio:
                     botConcorrente = new PontoFrioBot();
                     break;
+                case Concorrente.Submarino:
+                    botConcorrente = new SubmarinoBot();
+                    break;
             }
 
             return botConcorrente;

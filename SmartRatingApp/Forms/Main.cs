@@ -29,8 +29,11 @@ namespace SmartRatingApp.Forms
 
             foreach (var requisicao in requisicoes)
             {
-                var botConcorrente = botFactory.CreateBotConcorrente((Concorrente) requisicao.IdConcorrente);
-                var produtosLeitura = botConcorrente.RealizarPesquisa(requisicao);
+                if (requisicao.IdConcorrente == 4)
+                {
+                    var botConcorrente = botFactory.CreateBotConcorrente((Concorrente) requisicao.IdConcorrente);
+                    var produtosLeitura = botConcorrente.RealizarPesquisa(requisicao);
+                }
             }
         }
     }
